@@ -28,6 +28,10 @@ int main(){
            printf("%.2f",result);
            break;
         case '/':
+            if(num2 == 0){
+              printf("Not divisible by Zero.");
+              break;
+           }
            result = num1/num2;
            printf("%.2f",result);
            break;
